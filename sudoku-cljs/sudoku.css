@@ -1,0 +1,52 @@
+table, th, td {
+    border-collapse: collapse;
+}
+
+body {
+    font-family: monospace;
+}
+
+.header {
+    text-align: center;
+    background: navy;
+    padding: 20px;
+    margin: -10px;
+    color: white;
+}
+
+.row {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+    justify-content: center;
+    border: 4px solid;
+}
+
+.column {
+    margin: 10px;
+}
+
+th, td {
+    padding: 3px;
+}
+
+td {
+    text-align: center;
+    width: 48px;
+    height: 48px;
+}
+
+.horiz {
+    border-bottom: 2px solid;
+    size: 5;
+}
+
+.vert {
+    border-right: 2px solid;
+}
+
+.invalid {
+    background-color: mistyrose;
+}
